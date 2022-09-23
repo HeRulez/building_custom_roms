@@ -33,10 +33,10 @@ You can git clone device tree or make one from Template (https://github.com/HeRu
 
 # STEPS
 
-Step 1 Setting up your Building Env.
+# Step 1 Setting up your Building Env.
 
 
-* Check for the update and upgrade
+Check for the update and upgrade
 
      (UBUNTU)
 sudo apt-get update
@@ -85,7 +85,7 @@ cd setup
 ./android_build_env.sh (UBUNTU)
 ./arch-manjaro.sh (ARCH)
 
-Step 2 Downloading a ROM Source
+# Step 2 Downloading a ROM Source
 
 
 * This is important to do before cloning the device specific trees
@@ -131,7 +131,7 @@ repo sync
 
 This would actually depend on your internet speed.. the size of the LineageOS repo would be around 80-100 GB or more, probably
 
-Step 3 Device sources aka Trees
+# Step 3 Device sources aka Trees
 
 
 So, you probably downloaded the rom sources and set your git id. Well the next step is to find your device sources (Device Tree , Kernel Tree , Vendor Tree {And A Common Tree if available for both vendor and device})
@@ -161,7 +161,7 @@ Note: 1: You can get vendor and Vendor common tree on The Muppets (https://githu
       2: Search according to your device company aka manufacturer, device and device platform (common sense)
       3: Please note if you syned source with android 10,11,12,12.1,13 branch please import device, hardware, vendor and kernel according to android version or branch.
 
-Step 4 Placing right device trees folders to right souce folder
+# Step 4 Placing right device trees folders to right souce folder
 
 # Create folder in the following directory.
 
@@ -176,7 +176,7 @@ vendor_oneplus_sm8150-common------------------------------------>(source/vendor/
 
 
 
-Step 6 Compile
+# Step 5 Compile
 
 After doing with this 4 steps
 
@@ -196,17 +196,17 @@ finger cross :D
 
 IMPORTANT NOTE: SOME COMMON ERRORS ARE RELATED TO COMMONBROADCONFIG IN DEVICE-COMMON FOLDER AND ANDROID.BP FILES YOU NEED TO MODIFY IT ACCORDING TO THE ERRORS.....
 
-step 5 upload and share
+step 6 upload and share
 
 COMMON SENSE xD
 
-********************* AS AN RESPONSIBLE INDIVIDUAL FIRST TEST THE BUILD YOURSELF IF IT BOOTS THEN SHARE, DONT! BUILD AND START SHARING WITH OTHERS IMMEDIATELY POSSIBLE CHANCES BRICKING OTHERS DEVICE.******************************
+# ********************* AS AN RESPONSIBLE INDIVIDUAL FIRST TEST THE BUILD YOURSELF IF IT BOOTS THEN SHARE, DONT! BUILD AND START SHARING WITH OTHERS IMMEDIATELY POSSIBLE CHANCES BRICKING OTHERS DEVICE.******************************
 
 *STAY POSITIVE
 *START BUILING
 <3
 
-AS A NEWBIE FIRST START BUILDING LINEAGEOS AND THEN SWITCH TO OTHER CUSTOM ROMS THROUGH THIS METHOD YOU KNOW THE POSSBLE OUTCOME ERRORS AND WORKAROUND.
+# AS A NEWBIE FIRST START BUILDING LINEAGEOS AND THEN SWITCH TO OTHER CUSTOM ROMS THROUGH THIS METHOD YOU KNOW THE POSSBLE OUTCOME ERRORS AND WORKAROUND.
 
 #HAPPY_BUILDING
 
