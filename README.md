@@ -21,10 +21,15 @@ If you already have these:
 * You need to have your device trees:
 
 1:device
+
 2:device-common
+
 3:kernel
+
 4:vendor
+
 5:vendor-common
+
 6:hardware
 
 You can git clone device tree or make one from Template (https://github.com/HeRulez/android_device_tree_template) 
@@ -40,6 +45,7 @@ Check for the update and upgrade
 
      (UBUNTU)
 sudo apt-get update
+
 sudo apt-get upgrade
 
      (ARCH)
