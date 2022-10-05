@@ -210,7 +210,11 @@ COMMON SENSE xD
 
 *STAY POSITIVE
 *START BUILING
-<3
+
+
+                                                              BIG LOVE FROM MY SIDE <3
+                                                                       &
+                                                      WELCOME TO ANDROID BUILDING COMMUNITY :'3          
 
 # AS A NEWBIE FIRST START BUILDING LINEAGEOS AND THEN SWITCH TO OTHER CUSTOM ROMS THROUGH THIS METHOD YOU KNOW THE POSSBLE OUTCOME ERRORS AND WORKAROUND.
 
