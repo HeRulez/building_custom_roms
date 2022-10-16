@@ -4,6 +4,8 @@ If you already have these:
 
 * A linux Environment (Recommended : Ubuntu Latest LTS (Long Term Support)) Remember you can build on any distro having proper repository like arch based or ubuntu based must have (Ubuntu repo)  .
 
+  The best i got: https://ubuntu-mate.org/download/  (UBUNTU MATE)
+
 * Internet Connection obviously (Better if it's a 5Mb/S plan at the least). Because ROM sources could be 25-30 GB approx. even when shallow cloned.
 
 * CPU: 4 core 8 thread is the bare minimum or else it takes an eternity to build.
@@ -175,7 +177,7 @@ Note: 1: You can get vendor and Vendor common tree on The Muppets (https://githu
 device_oneplus_hotdogb ----------------------------------------->(source/device/oneplus/hotdogb)
 device_oneplus_sm8150-common ----------------------------------->(source/device/oneplus/sm8150-common)
 hardware_oneplus------------------------------------------------>(source/hardware/oneplus)
-kernel_oneplus_sm8150------------------------------------------->(source/kernel/oneplus/sm8150)
+kernel_oneplus_sm8150------------------------------------------->(source/kernel/oneplus)
 vendor_oneplus_hotdogb------------------------------------------>(source/vendor/oneplus/hotdogb)
 vendor_oneplus_sm8150-common------------------------------------>(source/vendor/oneplus/sm8150-common)
 
